@@ -1,0 +1,86 @@
+* {
+    margin: 30px 2% 30px 2%;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(243, 255, 153, 0.548);
+    color: rgb(155, 207, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(24, 24, 24, 0.342)), url( ./wp1864279.jpg );
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    
+}
+
+.top-nav-ul {
+    padding-left: 30%;
+}
+
+.top-nav-ul li {
+    background-color: rgba(44, 22, 22, 0.329);
+    display: inline-block;
+    border: 2px solid;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin: 3%;
+    padding: 1% 25px ;
+    width: 70px;
+}
+
+.top-nav-ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.top-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 130%;
+}
+
+h1 {   
+    color: rgb(255, 255, 255);
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    size: 25%;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    size: 25%;
+    padding-top: 20px;
+}
+
+section {
+    margin:7%;
+}
+
+.sec {
+    background-color: rgb(255, 255, 255);
+
+    padding: 180px 120px auto 120px;
+}
+
+.sec-h1 {
+    color: #000;
+}
+
+.imge {
+    width:80%;
+    height: 50%;
+}
